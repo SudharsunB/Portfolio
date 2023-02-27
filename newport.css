@@ -7,6 +7,9 @@
             /* padding: 0px;
             margin: 0px; */
         }
+        html{
+            scroll-behavior: smooth;
+        }
         body{
             background-color: black;
             font-family: 'Poppins', sans-serif;
@@ -44,6 +47,7 @@
         .nav-links{
             display: flex;
             align-items: center;
+            padding: 20px;
             justify-content: space-between;
         }
         .nav_bar{
@@ -114,6 +118,7 @@
         .content{
             margin: 100px;
             border-right: 2px solid white;
+            border-bottom: 2px solid white;
             padding: 12px;
             width: 600px;
             display: flex;
@@ -137,6 +142,132 @@
         }
         .main h2{
             width: 100px;
+        }
+
+        /* -------------------------CSS => SKILLS-------------------------------*/
+          *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        .maindiv_skill{
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+            color: white;
+        }
+        .box{
+            border: 2px solid rgb(64, 0, 255);
+            height: 15px;
+            width: 400px;
+            border-radius: 15px;
+        }
+        .per_html{
+            height:12px;
+            width:10%;
+            border-radius: 15px;
+            background-color: rgb(0, 247, 255);
+            transition: width 1.5s;
+        }
+        .per_css{
+            height:12px;
+            width:10%;
+            border-radius: 15px;
+            background-color: rgb(0, 247, 255);
+            transition: width 1.5s;
+        }
+        .per_c{
+            height:12px;
+            width:10%;
+            border-radius: 15px;
+            background-color: rgb(0, 247, 255);
+            transition: width 1.5s;
+        }
+        .per_cpp{
+            height:12px;
+            width:10%;
+            border-radius: 15px;
+            background-color: rgb(0, 247, 255);
+            transition: width 1.5s;
+        }
+        .per_html:hover{
+            width:80%;
+            cursor: pointer;
+        }
+        .per_css:hover{
+            width:70%;
+            cursor: pointer;
+        }
+        .per_c:hover{
+            width:70%;
+            cursor: pointer;
+        }
+        .per_cpp:hover{
+            width:50%;
+            cursor: pointer;
+        }
+        .ts{
+            /* background-color: chartreuse; */
+            height: 400px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .ps{
+            /* background-color: rgb(42, 108, 165); */
+            height: 200px;
+            width:500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .aoi{
+            /* background-color: deeppink; */
+            height: 200px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        p{
+            margin: 12px;
+        }
+        .ps_aoi{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .skills_li{
+            font-size: 20px;
+        }
+        .subdiv_skill{
+            display: flex;
+            flex-direction: row;
+        }
+        .title{
+            /* background-color: fuchsia; */
+            width: 1000px;
+            display: flex;
+            justify-content: center;
+        }
+        .maindiv_skill{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #li,#h3,#h1{
+            margin: 12px;
+            list-style-type:circle;
+        }
+        #h1{
+            font-size: 35px;
         }
         /* -----------------------CSS => PROJECTS------------------------------ */
 
