@@ -1,4 +1,5 @@
 
+        
         /* ---------------------------CSS => BODY--------------------------- */
 
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
@@ -119,12 +120,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
-            
+            flex-direction: column;   
         }
         .content:hover{
             border-color: black;
             border-radius: 40px;
+            transition: all 0.5s linear;
             box-shadow: -10px 0px 10px 5px rgb(1, 192, 255);
         }
         #desc{
@@ -132,7 +133,7 @@
         }
         .main{
             display: flex;
-            width: 100vw;
+            width: 600px;
             justify-content:center;
         }
         .main h2{
@@ -328,4 +329,5 @@
             justify-content: space-around;
             /* background-color: chartreuse; */
         }
+        
         
